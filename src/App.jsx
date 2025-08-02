@@ -155,7 +155,7 @@ function App() {
                 <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
               </div>
               <img
-                className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[3] rotate-[-20deg]"
+                className="absolute character bottom-0 left-1/2 -translate-x-1/2 h-full w-auto max-h-full object-contain"
                 src="./girlbg.png"
                 alt=""
               />
@@ -218,4 +218,4 @@ function App() {
   );
 }
 
-export default A;
+export default App;
